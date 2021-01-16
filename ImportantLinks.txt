@@ -1,0 +1,2 @@
+Understanding wxWidgets file/build scheme
+https://wiki.wxwidgets.org/Understanding_wxWidgets_Build_Scheme
