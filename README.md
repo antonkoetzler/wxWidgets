@@ -1,6 +1,6 @@
 # Learning wxWidgets
 
-**OS:** Windows
+**OS:** Windows/Ubuntu
 
 **IDE:** None
 
