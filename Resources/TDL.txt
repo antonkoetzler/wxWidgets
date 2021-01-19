@@ -1,1 +1,2 @@
 - Go over build options
+- Detail how to use CMake with wxWidgets

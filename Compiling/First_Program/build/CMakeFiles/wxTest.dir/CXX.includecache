@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/anton/git/wxWidgets/FirstProgram/myapp.cpp
+C:/Users/anton/git/wxWidgets/Compiling/First_Program/myapp.cpp
 wx/wxprec.h
 -
 wx/wx.h

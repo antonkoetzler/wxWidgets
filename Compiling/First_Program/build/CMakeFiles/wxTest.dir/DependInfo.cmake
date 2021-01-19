@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/anton/git/wxWidgets/FirstProgram/myapp.cpp" "C:/Users/anton/git/wxWidgets/FirstProgram/build/CMakeFiles/wxTest.dir/myapp.cpp.obj"
+  "C:/Users/anton/git/wxWidgets/Compiling/First_Program/myapp.cpp" "C:/Users/anton/git/wxWidgets/Compiling/First_Program/build/CMakeFiles/wxTest.dir/myapp.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
