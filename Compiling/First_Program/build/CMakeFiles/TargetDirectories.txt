@@ -1,3 +1,0 @@
-C:/Users/anton/git/wxWidgets/Compiling/First_Program/build/CMakeFiles/wxTest.dir
-C:/Users/anton/git/wxWidgets/Compiling/First_Program/build/CMakeFiles/edit_cache.dir
-C:/Users/anton/git/wxWidgets/Compiling/First_Program/build/CMakeFiles/rebuild_cache.dir

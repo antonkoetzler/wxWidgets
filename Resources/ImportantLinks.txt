@@ -1,2 +1,5 @@
 Understanding wxWidgets file/build scheme
-https://wiki.wxwidgets.org/Understanding_wxWidgets_Build_Scheme
+- https://wiki.wxwidgets.org/Understanding_wxWidgets_Build_Scheme
+
+Creating your first wxWidgets application
+- https://wiki.wxwidgets.org/Writing_Your_First_Application-Introduction
