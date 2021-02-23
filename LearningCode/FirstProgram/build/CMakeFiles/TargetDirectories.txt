@@ -1,3 +1,0 @@
-C:/Users/anton/git/wxWidgets/LearningSyntax/FileSeperation/build/CMakeFiles/FileSeperation.dir
-C:/Users/anton/git/wxWidgets/LearningSyntax/FileSeperation/build/CMakeFiles/edit_cache.dir
-C:/Users/anton/git/wxWidgets/LearningSyntax/FileSeperation/build/CMakeFiles/rebuild_cache.dir
