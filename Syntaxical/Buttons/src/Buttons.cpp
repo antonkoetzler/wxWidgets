@@ -1,21 +1,22 @@
 #include <wx/wx.h>
 #include "Buttons.h"
 
-IMPLEMENT_APP(MainApp)
+IMPLEMENT_APP(App)
 
-bool MainApp::OnInit() {
-	MainFrame *MainWindow = new MainFrame(
-			_T("Buttons Boy"),
-			wxPoint(1, 1),
-			wxSize(800, 800));
+bool App::OnInit() 
+{
+	Frame *window = new Frame(
+		wxT("Hello World!"),
+		wxPoint(10, 10),
+		wxSize(800, 800)
+	);
 
-	MainWindow->Show(true);
-	SetTopWindow(MainWindow);
+	window->Show(true);
 
 	return true;
-}
+} 
 
-MainFrame::MainFrame(wxString &title, const wxPoint &coord, const wxSize &size) 
-	: wxFrame(null, -1, title, coord, size) {
+Frame::Frame(const wxString& title, const wxPoint& pos, const wxSize& size) 
+: wxFrame(nullptr, wxID_ANY, title, pos, size) 
+{
 }
-

@@ -1,14 +1,15 @@
 #pragma once
 
-#include <wx/wx.h>
-
-class MainApp : public wxApp {
- public:
-	 virtual bool OnInit();
+class App: public wxApp
+{
+public:
+	virtual bool OnInit(); 
 };
 
-class MainFrame : public wxFrame {
- public:
-	 MainFrame(const wxString &title, wxPoint &coord, wxSize &size);
-};
+class Frame: public wxFrame
+{ 
+public: 
+	Frame(const wxString &title, const wxPoint &pos, const wxSize &size); 
+}; 
 
+DECLARE_APP(App)

@@ -1,0 +1,3 @@
+C:/Users/Flqn/git/wxWidgets/Syntaxical/Buttons/build/CMakeFiles/Buttons.dir
+C:/Users/Flqn/git/wxWidgets/Syntaxical/Buttons/build/CMakeFiles/edit_cache.dir
+C:/Users/Flqn/git/wxWidgets/Syntaxical/Buttons/build/CMakeFiles/rebuild_cache.dir
