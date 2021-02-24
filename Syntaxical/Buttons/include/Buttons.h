@@ -9,6 +9,6 @@ class MainApp : public wxApp {
 
 class MainFrame : public wxFrame {
  public:
-	 MainFrame(wxString &title, wxPoint &coord, wxSize &size);
+	 MainFrame(const wxString &title, wxPoint &coord, wxSize &size);
 };
 
