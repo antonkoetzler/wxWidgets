@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Buttons.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\Buttons.dir/objects.a @CMakeFiles\Buttons.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -Wl,--whole-archive CMakeFiles\Buttons.dir/objects.a -Wl,--no-whole-archive -o Buttons.exe -Wl,--out-implib,libButtons.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Buttons.dir\linklibs.rsp
