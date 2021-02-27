@@ -1,0 +1,3 @@
+C:/Users/Flqn/Desktop/wxClean/build/CMakeFiles/wxCleanCode.dir
+C:/Users/Flqn/Desktop/wxClean/build/CMakeFiles/edit_cache.dir
+C:/Users/Flqn/Desktop/wxClean/build/CMakeFiles/rebuild_cache.dir
