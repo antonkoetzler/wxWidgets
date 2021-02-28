@@ -8,10 +8,10 @@ public:
 	Frame();
 
 public:
-	wxButton* exitButton = nullptr;
+	wxButton* exitButton;
 	void OnExit(wxCommandEvent&);
 
-	wxTextCtrl* textBox = nullptr;
+	wxTextCtrl* textBox;
 
 	DECLARE_EVENT_TABLE()
 };

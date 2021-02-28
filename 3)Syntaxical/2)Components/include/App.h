@@ -8,5 +8,5 @@ class App : public wxApp
 public:
 	virtual bool OnInit();
 private:
-	Frame* window = nullptr;
+	Frame* window;
 };
