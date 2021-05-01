@@ -12,3 +12,7 @@ How to install wxWidgets on either Windows or Linux (personally, Linux Mint)
 Syntactic means of learning wxWidgets
 
 **1) FirstCompile:** How to compile a wxWidgets program
+
+**2) EmptyProgram:** Implementing a completely empty program with wxWidgets.
+
+**(FINAL PROJECT) Offline Video Storage**
