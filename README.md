@@ -15,6 +15,6 @@ Syntactic means of learning wxWidgets
 
 **2) EmptyProgram:** Implementing a completely empty program with wxWidgets.
 
-**3) Controlers-and-Containers:** Adding buttons and how to place buttons.
+**3) Controls-and-Containers:** Adding buttons and how to place buttons.
 
 **(FINAL PROJECT) Offline Video Storage**
