@@ -17,4 +17,8 @@ Syntactic means of learning wxWidgets
 
 **3) Controls-and-Containers:** Placing controls such as buttons and how to place these controls with containers.
 
+**4) Menubar:** Creating a menubar.
+
+**5) Sizers:** Furthering our container knowledge and using sizers
+
 **(FINAL PROJECT) Offline Video Storage**
