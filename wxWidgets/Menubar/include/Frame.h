@@ -13,9 +13,19 @@ private:
 	// Menubar
 	wxMenuBar* menu;
 
-	// Menu
+	// File Menu and it's Items
 	wxMenu* fileMenu;
-	// fileMenu Menu Items
 	wxMenuItem* fileExit;
 		void OnExit(wxCommandEvent&);
+
+	// Dialog Menu
+	wxMenu* dialogMenu;
+	wxMenuItem* dialogClickMe;
+		void OnClickMe(wxCommandEvent&);
+
+	// Panel to Change the Background Colour
+	wxPanel* colour;
+
+	// Main Text in the Program
+	wxStaticText* text;
 };
