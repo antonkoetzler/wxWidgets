@@ -1,0 +1,3 @@
+C:/Users/flqn/git/wxWidgets/wxWidgets/EventHandling/build/CMakeFiles/EventHandling.dir
+C:/Users/flqn/git/wxWidgets/wxWidgets/EventHandling/build/CMakeFiles/edit_cache.dir
+C:/Users/flqn/git/wxWidgets/wxWidgets/EventHandling/build/CMakeFiles/rebuild_cache.dir
