@@ -151,16 +151,19 @@ void Frame::setName(wxCommandEvent& event)
 {
 	if (getName->GetLineText(0) != wxEmptyString)
 		userName->SetLabel(getName->GetLineText(0));
+	std::cout << "(setName) wxCommandEvent ID: " << event.GetId() << std::endl;
 }
 
 void Frame::setEmail(wxCommandEvent& event)
 {
 	if (getEmail->GetLineText(0) != wxEmptyString)
 		userEmail->SetLabel(getEmail->GetLineText(0));
+	std::cout << "(setEmail) wxCommandEvent ID: " << event.GetId() << std::endl;
 }
 
 void Frame::setPhone(wxCommandEvent& event)
 {
 	if (getPhone->GetLineText(0) != wxEmptyString)
 		userPhone->SetLabel(getPhone->GetLineText(0));
+	std::cout << "(setPhone) wxCommandEvent ID: " << event.GetId() << std::endl;
 }
