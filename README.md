@@ -22,6 +22,6 @@ Syntactic means of learning wxWidgets
 
 **5) Sizers:** Furthering our container knowledge and using sizers
 
-**6) TextControl:** Gathering text in a program
+**6) EventHandling:** Gathering text and using wxCommandEvent
 
 **(FINAL PROJECT) Offline Video Storage**
