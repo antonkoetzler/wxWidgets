@@ -8,7 +8,7 @@ How to install wxWidgets on either Windows or Linux (personally, Ubuntu 20.04)
 
 
 
-## wxWidgets
+## ./wxWidgets/
 Syntactic means of learning wxWidgets
 
 **1) FirstCompile:** How to compile a wxWidgets program.
