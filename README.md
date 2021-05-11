@@ -4,7 +4,7 @@ Self-teaching wxWidgets with my own documentation provided.
 
 
 ## ./Installation/
-How to install wxWidgets on either Windows or Linux (personally, Ubuntu 20.04)
+How to install wxWidgets on either Windows or Linux (personally, Linux Mint)
 
 
 
