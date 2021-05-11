@@ -5,10 +5,15 @@ END_EVENT_TABLE()
 
 Frame::Frame() : wxFrame(nullptr, wxID_ANY, "Adding Pictures in wxWidgets", wxDefaultPosition, wxDefaultSize)
 {
+	wxInitAllImageHandlers();
+
 	Center();
 
-	// Setting an Application Icon
-	SetIcon(wxIcon("../pictures/icon.ico"));
+	// Setting the Icon
+	wxIcon icon("../pictures/icon.ico", wxBITMAP_TYPE_ICO);
+
+	if (icon.IsOk()) // Asserting icon bitmap before setting the icon
+		SetIcon(icon);
 
 	gSizer = new wxGridSizer(2, 2, 2, 2);
 
@@ -17,22 +22,26 @@ Frame::Frame() : wxFrame(nullptr, wxID_ANY, "Adding Pictures in wxWidgets", wxDe
 	if (imageHolder1)
 		gSizer->Add(
 			imageHolder1,
-			1
+			1,
+			wxALIGN_CENTER
 		);
 	if (imageHolder2)
 		gSizer->Add(
 			imageHolder2,
-			1
+			1,
+			wxALIGN_CENTER
 		);
 	if (imageHolder3)
 		gSizer->Add(
 			imageHolder3,
-			1
+			1,
+			wxALIGN_CENTER
 		);
 	if (imageHolder4)
 		gSizer->Add(
 			imageHolder4,
-			1
+			1,
+			wxALIGN_CENTER
 		);
 
 	SetSizerAndFit(gSizer);

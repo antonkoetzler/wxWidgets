@@ -1,0 +1,3 @@
+C:/Users/flqn/git/wxWidgets/wxWidgets/Pictures/build/CMakeFiles/Pictures.dir
+C:/Users/flqn/git/wxWidgets/wxWidgets/Pictures/build/CMakeFiles/edit_cache.dir
+C:/Users/flqn/git/wxWidgets/wxWidgets/Pictures/build/CMakeFiles/rebuild_cache.dir
