@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 
-project(MyoroEditor)
+project(TextEditor)
 
 set(wxWidgets_ROOT_DIR "C:/sdks/wxWidgets-3.1.5")
 set(wxWidgets_CONFIGURATION mswu)

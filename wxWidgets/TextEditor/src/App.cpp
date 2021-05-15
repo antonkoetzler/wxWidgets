@@ -4,7 +4,8 @@ IMPLEMENT_APP(App);
 
 bool App::OnInit()
 {
-	mainWindow = new Frame(); mainWindow->Show();
+	mainWindow = new Frame();
+	mainWindow->Show();
 
 	return true;
 }

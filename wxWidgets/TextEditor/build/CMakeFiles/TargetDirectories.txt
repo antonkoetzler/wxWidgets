@@ -1,0 +1,3 @@
+C:/Users/flqn/git/wxWidgets/wxWidgets/TextEditor/build/CMakeFiles/TextEditor.dir
+C:/Users/flqn/git/wxWidgets/wxWidgets/TextEditor/build/CMakeFiles/edit_cache.dir
+C:/Users/flqn/git/wxWidgets/wxWidgets/TextEditor/build/CMakeFiles/rebuild_cache.dir

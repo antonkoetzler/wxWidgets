@@ -1,6 +1,7 @@
 #pragma once
 
 #include <wx/wx.h>
+#include <wx/richtext/richtextctrl.h>
 
 class Frame : public wxFrame
 {
@@ -20,4 +21,7 @@ private:
 	// Event Functions
 	void OnExit(wxCommandEvent&);
 	void OnSave(wxCommandEvent&);
+
+	// Child Windows
+	wxFrame* preferences;
 };

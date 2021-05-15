@@ -25,6 +25,6 @@ Syntactic means of learning wxWidgets
 
 **7) Pictures**
 
-**8) MyoroEditor:** Creating a simple text editor. Our first real program with utility. Hopefully, this can become an open source project after it's completion.
+**8) TextEditor:** Creating a simple text editor. Our first real program with utility.
 
 **(FINAL PROJECT) Offline Video Storage**

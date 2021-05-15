@@ -24,7 +24,7 @@ Frame::Frame() : wxFrame(nullptr, wxID_ANY, "MyoroEditor", wxPoint(100, 50), wxS
 		new wxMenuItem(
 			file,
 			10001,
-			"Save",
+			"Save\tCtrl+S",
 			wxEmptyString,
 			wxITEM_NORMAL,
 			nullptr
@@ -34,7 +34,7 @@ Frame::Frame() : wxFrame(nullptr, wxID_ANY, "MyoroEditor", wxPoint(100, 50), wxS
 		new wxMenuItem(
 			file,
 			wxID_EXIT,
-			"Exit",
+			"Exit\tCtrl+Q",
 			wxEmptyString,
 			wxITEM_NORMAL,
 			nullptr
@@ -53,9 +53,8 @@ Frame::Frame() : wxFrame(nullptr, wxID_ANY, "MyoroEditor", wxPoint(100, 50), wxS
 		wxTE_MULTILINE
 	);
 
-	typingWindow->SetBackgroundColour(wxColour(49, 10, 37));
-	typingWindow->SetForegroundColour(wxColour(255, 255, 255));
-	
+	typingWindow->SetBackgroundColour(wxColour(228, 253, 207));
+
 	SetMenuBar(menubar);
 }
 
