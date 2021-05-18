@@ -10,6 +10,20 @@ class Main : public wxFrame
 public:
 	Main();
 
+	// Helpful Functions
+	void SetDefaultFont();
+	void ConfigureMenuBar();
+
+	// Events
+	void OnExit(wxCommandEvent&);
+
 private:
+	DECLARE_EVENT_TABLE()
+
+
 	wxRichTextCtrl* typingWindow;
+
+	// Menu
+	wxMenuBar* menubar;
+	wxMenu* file;
 };
