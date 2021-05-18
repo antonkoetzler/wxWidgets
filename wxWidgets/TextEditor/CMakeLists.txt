@@ -1,15 +1,18 @@
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.0)
 
 project(TextEditor)
 
 set(wxWidgets_ROOT_DIR "C:/sdks/wxWidgets-3.1.5")
 set(wxWidgets_CONFIGURATION mswu)
+set(wxWidgets_CXX_FLAGS wx-config --libs std,richtext)
 
-find_package(wxWidgets COMPONENTS core base REQUIRED)
-include("${wxWidgets_USE_FILE}")
+find_package(wxWidgets REQUIRED richtext adv html core xml base)
 
 aux_source_directory(./src/ SRC)
-include_directories(./include/ INCLUDE)
+include_directories(
+	./include/
+	${wxWidgets_INCLUDE_DIRS}
+)
 
 add_executable(
 	${PROJECT_NAME}

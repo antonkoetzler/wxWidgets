@@ -1,7 +1,9 @@
+// wxApp Class
+
 #pragma once
 
 #include <wx/wx.h>
-#include "Frame.h"
+#include "Main.h"
 
 class App : public wxApp
 {
@@ -9,5 +11,5 @@ public:
 	virtual bool OnInit();
 
 private:
-	Frame* mainWindow;
+	Main* mainWindow;
 };

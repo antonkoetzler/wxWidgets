@@ -5,7 +5,7 @@ project(Controls-and-Containers)
 set(wxWidgets_ROOT_DIR "C:/sdks/wxWidgets-3.1.5")
 set(wxWidgets_CONFIGURATION mswu)
 
-find_package(wxWidgets COMPONENTS core base REQUIRED)
+find_package(wxWidgets REQUIRED core base)
 include("${wxWidgets_USE_FILE}")
 
 aux_source_directory(./src/ SRC)
