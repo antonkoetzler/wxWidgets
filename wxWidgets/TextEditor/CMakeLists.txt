@@ -4,7 +4,6 @@ project(TextEditor)
 
 set(wxWidgets_ROOT_DIR "C:/sdks/wxWidgets-3.1.5")
 set(wxWidgets_CONFIGURATION mswu)
-set(wxWidgets_CXX_FLAGS wx-config --libs std,richtext)
 
 find_package(wxWidgets REQUIRED richtext adv html core xml base)
 
