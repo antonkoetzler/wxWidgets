@@ -27,4 +27,4 @@ Syntactic means of learning wxWidgets
 
 **8) TextEditor:** Creating a simple text editor. Our first real program with utility.
 
-**(FINAL PROJECT) Offline Video Storage**
+**(FINAL PROJECT WITHIN THIS REPOSITORY) Offline Video Storage**
